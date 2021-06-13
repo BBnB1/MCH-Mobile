@@ -1,16 +1,21 @@
 # hackaton
 
-A new Flutter project.
+Мобильное приложение разработано под Redmi Note 8
 
-## Getting Started
+# Дизайнерское решение (ссылка на фигму). Если не будет открывать - нужно авторизоваться 
+- [https://www.figma.com/file/LTNCgHPiaya3p0bqsKfJa4/i.moscow?node-id=65%3A1314](https://www.figma.com/file/LTNCgHPiaya3p0bqsKfJa4/i.moscow?node-id=65%3A1314)
 
-This project is a starting point for a Flutter application.
+# desc.dart
+- описание блоков на экране "проект" (Технологии/продукт, Рынок, О проекте, Развитие и внедрение)
 
-A few resources to get you started if this is your first Flutter project:
+# main_screen.dart 
+- экран главной страницы и вся ее логика
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# project_page.dart 
+- экран проекта с подробной о ней информацией для обычного пользователя
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# reg.dart 
+- экран входа (его мы скрыли, дабы продемонстрировать результат вошедшего пользователя)
+
+# main.dart 
+- фундамент для проекта (навигация)
